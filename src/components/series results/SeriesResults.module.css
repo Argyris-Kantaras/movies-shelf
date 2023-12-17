@@ -1,0 +1,17 @@
+.results {
+  position: relative;
+  left: 15%;
+  width: 85%;
+}
+
+.backBtn {
+  float: right;
+  color: white;
+  transition: 0.2s;
+  width: 10%;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  border-bottom: 1px white solid;
+}

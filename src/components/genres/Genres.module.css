@@ -1,0 +1,29 @@
+.genres {
+  color: white;
+  text-align: center;
+}
+
+.everyGenre {
+  margin: 15px;
+  padding: 5px;
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  border-bottom: 1px solid white;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.everyGenre:hover {
+  color: yellow;
+  box-shadow: 2px 2px 5px 2px yellow;
+}
+
+.yearFilter {
+  border-bottom: 1px white solid;
+  width: 20%;
+  position: relative;
+  left: 40%;
+  text-align: left;
+}

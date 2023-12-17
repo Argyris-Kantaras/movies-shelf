@@ -1,0 +1,12 @@
+.savedBookmarks {
+  position: relative;
+  left: 15%;
+  width: 85%;
+  color: white;
+}
+
+.noResults {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}

@@ -1,0 +1,58 @@
+.registerForm {
+  color: white;
+  position: relative;
+  left: 20%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+.registerForm div {
+  text-align: right;
+  margin: 2%;
+}
+.label {
+  font-size: 20px;
+  margin-right: 15px;
+  width: 5%;
+}
+
+.input {
+  width: 20%;
+  outline: none;
+  color: white;
+  border: 1px solid white;
+  border-top: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.input:focus {
+  border: 1px yellow solid;
+  border-top: none;
+}
+
+.button {
+  width: 50%;
+  position: relative;
+  left: 62%;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: yellow;
+}
+
+.errorMessage {
+  width: 50%;
+  position: absolute;
+  left: 55%;
+  top: 0%;
+  color: red;
+  font-size: 18px;
+}

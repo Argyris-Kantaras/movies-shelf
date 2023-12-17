@@ -1,0 +1,22 @@
+.choiceContainer {
+  color: white;
+  position: relative;
+  width: 70%;
+  height: 150px;
+  left: 20%;
+  text-align: center;
+}
+
+.choice {
+  margin: 5% 10% 0% 10%;
+  display: inline-block;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}

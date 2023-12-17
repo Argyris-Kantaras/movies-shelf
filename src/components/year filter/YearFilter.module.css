@@ -1,0 +1,70 @@
+.yearFilter {
+  width: 20%;
+  position: relative;
+  /* left: 0%; */
+}
+
+.yearFilter span {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.selectYear {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 15%;
+  position: relative;
+  left: 45%;
+  margin-left: -15px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.yearsContainer {
+  transition: 0.5s;
+}
+
+.upArrow {
+  transform: rotate(90deg);
+  background-color: black;
+  width: 10%;
+  position: absolute;
+  left: 65%;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.upArrow:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.downArrow {
+  transform: rotate(-90deg);
+  background-color: black;
+  width: 10%;
+  position: absolute;
+  left: 65%;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -15%;
+  cursor: pointer;
+}
+
+.downArrow:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.selectYear option:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,17 @@
+1/ Fix the More btn at the coming soon component +++++
+
+2/ Fix the bookmarks when one is saved to be shown on image +++++++
+
+3/ Add the registration +++++++++++++++
+
+4/ Add error handlers ++++++++
+
+5/ fix bug with back button after seeing details ++++++++++
+
+6/ Add spinner before show data
+
+7/Migrate to mongoDB instead of firebase ++++++++
+
+8/ Add input handle before submitting to server
+
+9/Add registered message

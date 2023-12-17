@@ -1,0 +1,65 @@
+.ratedFilm {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.generalDetails {
+  display: inline-block;
+  width: 50%;
+}
+
+.movieOrSerieIcon {
+  width: 15px;
+  height: 12px;
+  margin: 0 5px 0 5px;
+}
+
+.dot {
+  font-size: 30px;
+  margin: 3px;
+}
+
+.ratedContent {
+  display: flex;
+  justify-items: baseline;
+  flex-direction: column;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.filmImg {
+  width: 300px;
+  height: 200px;
+  margin: 12px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.filmImg:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 5px 8px 3px white;
+}
+
+.title {
+  font-size: 20px;
+  text-wrap: wrap;
+  width: 90%;
+  color: white;
+  font-weight: bold;
+}
+.title h4 {
+  margin: 0;
+  padding: 0;
+}

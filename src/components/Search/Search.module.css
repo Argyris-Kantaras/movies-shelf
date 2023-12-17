@@ -1,0 +1,10 @@
+.backBtn {
+  color: white;
+  transition: 0.2s;
+  width: 10%;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  border-bottom: 1px white solid;
+}
